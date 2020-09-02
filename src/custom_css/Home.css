@@ -1,0 +1,13 @@
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+}
+.TrendingCard :hover {
+  cursor: pointer;
+}
+
+.img-custom {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

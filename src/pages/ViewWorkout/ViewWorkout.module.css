@@ -1,0 +1,31 @@
+.video {
+  width: auto;
+  height: 600px;
+}
+
+.description {
+  width: auto;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.comment {
+  width: auto;
+  height: 200px;
+  margin-bottom: 120px;
+}
+
+.videoplayer {
+  height: 450px;
+  margin: auto 20%;
+}
+
+@media (max-width: 500px) {
+  .videoplayer {
+    height: 300px;
+    margin: 2px;
+  }
+  .ViewWorkout {
+    height: 500px;
+  }
+}

@@ -1,0 +1,54 @@
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 5px;
+    margin-bottom: 0em;
+}
+.Footer {
+    background-color: black;
+    color: white !important;
+    position:absolute;
+    
+   
+} 
+.Footer a{
+    color: white !important;
+} 
+.Bar{
+    background-color: white;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    height: 164px;
+    width: 2px;
+}
+
+.row{
+    margin-right: -15px;
+  margin-left: -15px;
+}
+
+.divImpo {
+    max-width: 1px !important;
+    padding: 0  !important;
+    background-color: white  !important;
+    height: 125px !important;
+    margin-top: 20px !important;
+    margin: 0 auto;
+}
+
+.borderImp {      
+    border-top: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .borderImp {      
+        border-top: 1px solid;
+        width: 50% !important;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+} 
